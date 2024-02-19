@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: black;
+  }
+  
+  #header {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    text-align: center;
+    border-bottom: 2px solid white;
+  }
+  
+  .container1 {
+    margin: 125px auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+  }
+  
+  .but {
+    font-size: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 0.5px solid black;
+  }
+  
+  .but:hover {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .reset { 
+    position: absolute;
+    left: 630px;
+    bottom: 200px;
+    background-color: white;
+    font-size: 40px;
+    width: 450px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  .reset:hover {
+    background-color: rgb(245, 245, 245);
+  }
